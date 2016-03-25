@@ -1,0 +1,8 @@
+ul li img {margin: 0; padding: 0;} 
+body{background: #8080c0;}
+h2{font-weight: bold;color: #fff;font-family: '微软雅黑'；}
+#ul1 {width: 660px;position: relative; margin: 10px auto;}
+
+#ul1 li{ width:200px;height:150px;float: left;margin: 10px;z-index: 1;list-style: none;}
+#ul1 li img{ border:none;width: 200px;height: 150px; }
+#ul1 .active{border:2px dashed white;}
