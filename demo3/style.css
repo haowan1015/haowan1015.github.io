@@ -1,0 +1,112 @@
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+
+em{font-size:normal;}
+li { list-style: none ;}
+a{text-decoration: none;}
+img{border:none; vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize: none;overflow: auto;}
+/*css初始化*/
+body{background: #281300 url(images/bg-head.jpg) repeat-x;}
+
+.wrap{width: 960px;margin: 0 auto;}
+.header{margin:0 10px;}
+.header_left{float: left;}
+.header_right{float: right;}
+
+.header_right .login{margin-bottom:25px;margin-right: 15px;}
+.header_right .login strong{color: #FF6666;}
+.header_right .login strong span{
+	  color: #FF6666; font-weight: bold;font-size:16px;
+	  line-height:36px; font-family:  "Bookman Old Style", 
+	  Georgia;margin-top: 5px; text-align: 
+	  right;
+}
+.header_right .login strong span:hover{color: #fff;}
+
+.header_right .total p{color: #fff;font-size: 12px;text-align: right;margin-bottom: 10px;line-height: 120%;margin-right: 15px;}
+.header_right .total a{float:right;font-size: 9px;line-height: 20px;color: #FF9900;text-align: right;margin-right: 15px;}
+.header_right .total a:hover{color: #fff;}
+
+
+.grid_16{clear: both;padding-top: 20px;}
+.grid_16 .List { font-size: 16px;font-weight: bold; color: #FF9900;}
+.grid_16 .List li{ float: left;margin-right: 20px;font-family:  "Bookman Old Style", Georgia;font-style:oblique;}
+.grid_16 .List li:hover{color: #fff;}
+
+.Search {height:50px;background:url(images/badge-new.png) no-repeat left top;clear: both;margin-top: 40px;}
+
+.Search p {float:left;color: #fff;margin-top: 15px;margin-left: 50px;text-align: center;line-height:14px;font-size: 14px;}
+.Search p em{font-style: oblique;}
+.Search p a {font-family:"Bookman Old Style", Georgia;color: #FF6666;font-style: oblique;}
+.Search p a:hover {color:#fff;}
+.Search .form1{height: 25px;width:220px;border:none;background: url(images/search.jpg) no-repeat;float: right;margin-top: 5px;margin-bottom: 5px;margin-right: 20px;}
+.Search .form1 input {border:none;margin-left: 10px;margin-top: 5px;width: 120px;}
+.banner{width: 960px;height:420px;border-bottom: 1px solid #4f2600;}
+.banner .list{ width: 938px; height: 398px; overflow: hidden; border:1px solid #fff;}
+ 
+
+.controller {width: 650px;height:50px;margin:20px auto;margin-bottom: 20px;}
+.controller .ul1{}
+.controller .ul1 li{float: left;margin-right: 20px;}
+.controller .ul1 li img {border:none;}
+
+.cake_wrap{background-color: #40210B;height: 215px;}
+.freshCake{height:215px;position: relative;width:960px;overflow: hidden;margin:0 auto;}
+.freshCake h1{ font-size: 29px;color: #FF9900;font-family:  "Bookman Old Style", Georgia;font-style: oblique;margin-bottom: 20px;text-align: center;}
+.freshCake a{width: 20px; height: 20px;text-decoration: none;cursor: pointer;}
+.freshCake .prev{ background: url(images/previous.png) no-repeat center bottom; position: absolute;top:20px;left: 0; }
+.freshCake .prev:hover{ background: url(images/previous.png) center top;}
+.freshCake .next{ background: url(images/next.png) no-repeat center bottom;position: absolute;top:20px;right: 0; }
+.freshCake .next:hover{ background: url(images/next.png) center top; }
+
+.freshCake .ul2 {position: absolute;width:2200px;}
+.freshCake .ul2 li{float: left;margin-left: 20px; }
+
+.catalogy {height:200px;width:100%;backgound:#281300;border-top: 1px solid #ff9900;border-bottom: 1px solid #ff9900;}
+.container16{width: 960px; margin:0px auto;}
+.recommended_grid_3,.recommended,.specialOffer{float: left;width: 220px;margin-right: 10px;margin-left: 15px;}
+.recommended_grid_3 h4,.recommended h4,.specialOffer h4{font-family:  "Bookman Old Style",  Georgia;font-style:oblique;font-size:20px;color: #fff;margin-bottom: 5px;margin-top: 20px;}
+.grid_4 li a{ color: #FF9900;font-size: 12px;margin-bottom: 10px; padding-left:10px;background: url(images/arrow.gif) no-repeat left center;}
+.grid_4 li a:hover { color: #fff;}
+
+
+.orderPhone{float:left;width:220px;height:190px;background: url(images/orderphone.jpg) no-repeat left top;}
+.orderPhone h4{font-size: 16px;color: #ff9900;padding-left:80px;margin-top:70px;}
+.orderPhone span{font-size: 24px;color:#fff;}
+
+
+#richContent2 {background:#1E0D00;height: 180px;width: 100%;padding-bottom: 20px;}
+#richContent2 .container_16{width:960px;margin:0 auto;}
+
+.fromBlog h4{font-size: 20px;color: #5E2B00;margin-top: 20px;}
+.fromBlog h5 {font-size: 14px;color: #ff9900;margin-top: 10px;}
+.fromBlog p {font-size: 12px;color: #fff;line-height:20px;margin-top: 10px;}
+.fromBlog p a {font-size: 12px;color:#FF6666;line-height:20px;font-family:"Bookman Old Style", Georgia;font-style: oblique;}
+
+#richContent2 .grid_4{float: left;margin-left: 10px;width: 220px;margin-right: 10px;margin-bottom: 10px;}
+#richContent2 .grid_4 h4{font-size: 20px;color: #5E2B00;margin-top: 20px;}
+.socialNet li{float: left;margin-right: 5px;}
+.socialNet li a{display: block;width: 58px;height: 56px;}
+.socialNet .facebook{background:url(images/facebook.png) no-repeat left top;}
+.socialNet .facebook:hover{background:url(images/facebook.png) no-repeat left bottom;}
+.socialNet .twitter{background:url(images/twitter.png) no-repeat left top;}
+.socialNet .twitter:hover{background:url(images/twitter.png) no-repeat left bottom;}
+.socialNet .feed{background:url(images/feed.png) no-repeat left top;}
+.socialNet .feed:hover{background:url(images/feed.png) no-repeat left bottom;}
+#footer{width:100%;background: url(images/bg-footer.jpg) repeat-x;height: 40px;}
+
+#footer .container_16{width: 960px;margin:0 auto;}
+#footer .footer_menu{width: 940px;text-align: center;float: left;}
+#footer .container_16 p {text-align: center;margin: 10px auto;}
+#footer .container_16 span{font-size: 12px;color:#ff9900;margin: 0 auto;}
+#footer .container_16 span a {font-size: 12px;color:#ff9900;}
+#footer .container_16 span a:hover{text-decoration: underline;}
+#footer .container_16 a {font-size: 12px;color:#fff;margin-left: 5px;}
+#footer .container_16 a:hover{color: #ff9900;}
+
+
+
+
+
